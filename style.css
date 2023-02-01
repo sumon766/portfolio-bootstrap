@@ -52,14 +52,25 @@ body {
     color: #f4f5f7;
 }
 
-.side-image {
-    position: absolute;
-    background-image: url("images/Illustration-header.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: right top;
-    height: 100%;
-    right: 0%;
+@media only screen and (min-width: 768px) {
+    .side-image {
+        position: absolute;
+        background-image: url("images/Illustration-header.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: right top;
+        height: 100%;
+        right: 0%;
+    }
+
+    .about-side-image {
+        background-image: url("images/illustration-about-me.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 360px;
+        width: 49%;
+        background-position: right center;
+    }
 }
 
 .portfolio-line {
@@ -172,15 +183,6 @@ body {
     color: #f4f5f7;
 }
 
-.about-side-image {
-    background-image: url("images/illustration-about-me.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 360px;
-    width: 49%;
-    background-position: right center;
-}
-
 .about-line {
     border-top: 1px solid #fff;
 }
@@ -219,3 +221,4 @@ body {
     line-height: 43px;
     color: #fff;
 }
+
