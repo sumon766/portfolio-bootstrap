@@ -1,0 +1,63 @@
+body {
+    padding-top: 56px;
+}
+
+.hero {
+    background-color: #1c1a19;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 8% 0%;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons ul li {
+    list-style-type: none;
+}
+
+.social-icons ul li a {
+    color: #cfcfcf;
+    font-size: 22px;
+}
+
+.intro h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #F55800;
+}
+
+.intro h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.intro p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+}
+
+.side-image {
+    position: absolute;
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right top;
+    height: 100%;
+    right: 0%;
+}
